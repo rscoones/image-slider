@@ -44,3 +44,7 @@ set a property, after all set, call refresh.<br/>
 
 <b>slider.get(prop)</b>:<br/>
 get a property value<br/>
+
+
+<h2>Disclaimer:</h2>
+I own none of the images.
