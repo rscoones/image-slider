@@ -1,0 +1,40 @@
+
+<html>
+<head>
+    <link rel="stylesheet" href="style/slider.css" type="text/css" media="all" title="default" />
+    <script src="scripts/slider.js"></script>
+    <script>
+        var props = {
+            holder: "slider",
+            speed: 400,
+            height: 225,
+            width: 400,
+            items: [
+                {
+                    src: "images/battlefield1.jpg",
+                    alt: "battlefield1"
+                },
+                {
+                    src: "images/battlefield2.jpg",
+                    alt: "battlefield2"
+                },
+                {
+                    src: "images/battlefield3.jpg",
+                    alt: "battlefield3"
+                },
+                {
+                    src: "images/battlefield4.jpg",
+                    alt: "battlefield4"
+                }
+            ]
+        }
+
+        window.onload = function () {
+            slider.create(props);
+        }
+    </script>
+</head>
+<body>
+    <div id="slider"></div>
+</body>
+</html>
